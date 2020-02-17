@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="d7e7150b-e772-4e0c-83a1-e427076dd2b6" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Client/src/components/app.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/Client/src/components/app.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Client/src/components/common/header-component/header.js" beforeDir="false" afterPath="$PROJECT_DIR$/Client/src/components/common/header-component/header.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Client/src/components/common/sidebar-component/sidebar.js" beforeDir="false" afterPath="$PROJECT_DIR$/Client/src/components/common/sidebar-component/sidebar.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Client/src/components/eyeCandi/signup.js" beforeDir="false" afterPath="$PROJECT_DIR$/Client/src/components/eyeCandi/signup.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Client/src/data/customizer/config.js" beforeDir="false" afterPath="$PROJECT_DIR$/Client/src/data/customizer/config.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Client/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/Client/src/index.js" afterDir="false" />
+    </list>
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="JavaScript File" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectId" id="1XehseoxGdMyJVcl0ctJ6x4NNdC" />
+  <component name="PropertiesComponent">
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/Client/src/components/advance" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="ts.external.directory.path" value="C:\Program Files\JetBrains\WebStorm 2019.2.2\plugins\JavaScriptLanguage\jsLanguageServicesImpl\external" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\xampp\htdocs\projects\eyecandi\Client\src\components\advance" />
+      <recent name="C:\xampp\htdocs\projects\eyecandi\Client\src\data" />
+      <recent name="C:\xampp\htdocs\projects\eyecandi\Client\src\components\base" />
+      <recent name="C:\xampp\htdocs\projects\eyecandi\Client\src\components" />
+      <recent name="C:\xampp\htdocs\projects\eyeCandi-project" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\xampp\htdocs\projects\eyeCandi-project\Client\src\components\eyeCandi" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="d7e7150b-e772-4e0c-83a1-e427076dd2b6" name="Default Changelist" comment="" />
+      <created>1581412675774</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1581412675774</updated>
+      <workItem from="1581412677309" duration="1708000" />
+      <workItem from="1581414703454" duration="10535000" />
+      <workItem from="1581494187826" duration="24698000" />
+      <workItem from="1581601242284" duration="56821000" />
+    </task>
+    <task id="LOCAL-00001" summary="Code Updated">
+      <created>1581601997335</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1581601997335</updated>
+    </task>
+    <task id="LOCAL-00002" summary="Code Updated">
+      <created>1581604303145</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1581604303145</updated>
+    </task>
+    <task id="LOCAL-00003" summary="Code Updated">
+      <created>1581608504981</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1581608504981</updated>
+    </task>
+    <task id="LOCAL-00004" summary="Code Updated">
+      <created>1581610234317</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1581610234317</updated>
+    </task>
+    <task id="LOCAL-00005" summary="Code Updated">
+      <created>1581695053377</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1581695053377</updated>
+    </task>
+    <task id="LOCAL-00006" summary="Code Updated">
+      <created>1581931590548</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1581931590548</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="false" />
+    <MESSAGE value="Code Updated" />
+    <option name="LAST_COMMIT_MESSAGE" value="Code Updated" />
+  </component>
+</project>
