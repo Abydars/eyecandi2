@@ -13,8 +13,8 @@ const AppLayout = ({children}) => {
         return (
             <div>
                 <Loader />
-                <div className="page-wrapper horizontal_sidebar">
-                    <div className="page-body-wrapper horizontal_sidebar">
+                <div className="page-wrapper">
+                    <div className="page-body-wrapper">
                         <Header />
                         <Sidebar />
                         <RightSidebar />

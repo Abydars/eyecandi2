@@ -4,11 +4,8 @@
     <list default="true" id="d7e7150b-e772-4e0c-83a1-e427076dd2b6" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Client/src/components/app.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/Client/src/components/app.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Client/src/components/common/header-component/header.js" beforeDir="false" afterPath="$PROJECT_DIR$/Client/src/components/common/header-component/header.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Client/src/components/common/sidebar-component/sidebar.js" beforeDir="false" afterPath="$PROJECT_DIR$/Client/src/components/common/sidebar-component/sidebar.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Client/src/components/eyeCandi/signup.js" beforeDir="false" afterPath="$PROJECT_DIR$/Client/src/components/eyeCandi/signup.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Client/src/data/customizer/config.js" beforeDir="false" afterPath="$PROJECT_DIR$/Client/src/data/customizer/config.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Client/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/Client/src/index.js" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -30,7 +27,7 @@
   <component name="PropertiesComponent">
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/Client/src/components/advance" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="ts.external.directory.path" value="C:\Program Files\JetBrains\WebStorm 2019.2.2\plugins\JavaScriptLanguage\jsLanguageServicesImpl\external" />
   </component>
@@ -72,6 +69,7 @@
       <workItem from="1581414703454" duration="10535000" />
       <workItem from="1581494187826" duration="24698000" />
       <workItem from="1581601242284" duration="56821000" />
+      <workItem from="1581950667362" duration="3559000" />
     </task>
     <task id="LOCAL-00001" summary="Code Updated">
       <created>1581601997335</created>
@@ -126,7 +124,9 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
           </value>
         </entry>
       </map>

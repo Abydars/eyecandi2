@@ -9,6 +9,7 @@ import { MENUITEMS } from '../../../constant/menu';
 import { Link } from 'react-router-dom';
 import { translate } from 'react-switch-lang';
 
+
 function useWindowSize(wrapper) {
     const [size, setSize] = useState([0, 0]);
 
@@ -22,6 +23,7 @@ function useWindowSize(wrapper) {
     }, []);
 
     if (wrapper === "horizontal_sidebar") {
+        // console.log(wrapper);
         if (size[0] > 100 && size[0] < 991) {
             document.querySelector(".page-wrapper").className = 'page-wrapper default';
             document.querySelector(".page-body-wrapper").className = 'page-body-wrapper default';
@@ -34,6 +36,7 @@ function useWindowSize(wrapper) {
     return size;
 }
 
+
 const Sidebar = (props) => {
     const [margin, setMargin] = useState(0);
     const [hideRightArrow, setHideRightArrow] = useState(false);
@@ -41,10 +44,17 @@ const Sidebar = (props) => {
     const [mainmenu, setMainMenu] = useState(MENUITEMS);
     const [hideLeftArrowRTL, setHideLeftArrowRTL] = useState(false);
     const [hideRightArrowRTL, setHideRightArrowRTL] = useState(true);
-    const configDB = useSelector(content => content.Customizer.sidebar_types);
-    const layout = useSelector(content => content.Customizer.layout);
-    const [width, height] = useWindowSize(configDB.wrapper);
+
+    const configDB = useSelector(content => content.Customizer.customizer);
+    console.log(configDB.settings.sidebar.wrapper+"~~");
+
+    const layout = useSelector(content => content.Customizer.customizer);
+    console.log(configDB.settings.layout_type+"~~");
+
+    const [width, height] = useWindowSize(configDB.settings.sidebar.wrapper);
     let location = useLocation();
+
+
 
     useEffect(() => {
         const currentUrl = location.pathname;
@@ -178,11 +188,11 @@ const Sidebar = (props) => {
                     <ul
                         className="sidebar-menu"
                         id="myDIV"
-                        style={configDB.wrapper === 'horizontal_sidebar' ? layout === 'rtl' ?
+                        style={configDB.settings.sidebar.wrapper === 'horizontal_sidebar' ? layout === 'rtl' ?
                             { 'marginRight': margin + 'px' } : { 'marginLeft': margin + 'px' } : { margin: '0px' }}
                     >
                         <li className={`left-arrow ${layout == 'rtl' ? hideLeftArrowRTL ? 'd-none' : 'hideLeftArrowRTL' : hideLeftArrow ? 'd-none' : 'hideLeftArrow'}`}
-                            onClick={(configDB.wrapper === 'horizontal_sidebar' && layout === 'rtl') ? scrollToLeftRTL : scrollToLeft}><i className="fa fa-angle-left"></i></li>
+                            onClick={(configDB.settings.sidebar.wrapper === 'horizontal_sidebar' && layout === 'rtl') ? scrollToLeftRTL : scrollToLeft}><i className="fa fa-angle-left"></i></li>
                         {
                             MENUITEMS.map((menuItem, i) =>
                                 <li className={`${menuItem.active ? 'active' : ''}`} key={i}>
@@ -251,8 +261,8 @@ const Sidebar = (props) => {
                                 </li>
                             )
                         }
-                        <li className={`right-arrow ${layout == 'rtl' ? hideRightArrowRTL ? 'd-none' : 'hideRightArrowRTL' : hideRightArrow ? 'd-none' : 'hideRightArrow'}`}
-                            onClick={(configDB.wrapper == 'horizontal_sidebar' && layout == 'rtl') ? scrollToRightRTL : scrollToRight}><i className="fa fa-angle-right"></i></li>
+                        <li className={`right-arrow ${ layout == 'rtl' ? hideRightArrowRTL ? 'd-none' : 'hideRightArrowRTL' : hideRightArrow ? 'd-none' : 'hideRightArrow'}`}
+                            onClick={(configDB.settings.sidebar.wrapper == 'horizontal_sidebar' && layout == 'rtl') ? scrollToRightRTL : scrollToRight}><i className="fa fa-angle-right"></i></li>
                     </ul>
                 </div>
             </div>

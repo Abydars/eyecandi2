@@ -3,8 +3,8 @@ export class ConfigDB {
 		settings: {
 			layout_type: 'rtl',
 			sidebar: {
-				wrapper: 'horizontal_sidebar',
-				bodyWrapper: 'horizontal_sidebar'
+				wrapper : 'horizontal_sidebar',
+				bodyWrapper: ''
 			},
 			sidebar_setting: 'default-sidebar',
 			sidebar_backround: 'dark-sidebar'
