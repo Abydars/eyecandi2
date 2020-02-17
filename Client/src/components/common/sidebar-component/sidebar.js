@@ -28,8 +28,11 @@ function useWindowSize(wrapper) {
             document.querySelector(".page-wrapper").className = 'page-wrapper default';
             document.querySelector(".page-body-wrapper").className = 'page-body-wrapper default';
         } else {
-            document.querySelector(".page-wrapper").className = 'page-wrapper horizontal_sidebar';
-            document.querySelector(".page-body-wrapper").className = 'page-body-wrapper horizontal_sidebar';
+              console.log(document.querySelector("page-wrapper")+"~@#");
+              console.log(document.getElementsByClassName("page-wrapper")+"---");
+
+            // document.querySelector(".page-wrapper").className = 'page-wrapper horizontal_sidebar';
+            // document.querySelector(".page-body-wrapper").className = 'page-body-wrapper horizontal_sidebar';
         }
     }
 
