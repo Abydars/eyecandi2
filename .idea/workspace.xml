@@ -3,7 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="d7e7150b-e772-4e0c-83a1-e427076dd2b6" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Client/src/components/common/breadcrumb.js" beforeDir="false" afterPath="$PROJECT_DIR$/Client/src/components/common/breadcrumb.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Client/src/components/eyeCandi/pages/frames.js" beforeDir="false" afterPath="$PROJECT_DIR$/Client/src/components/eyeCandi/pages/frames.js" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -71,7 +70,7 @@
       <workItem from="1581414703454" duration="10535000" />
       <workItem from="1581494187826" duration="24698000" />
       <workItem from="1581601242284" duration="56821000" />
-      <workItem from="1581950667362" duration="32365000" />
+      <workItem from="1581950667362" duration="34005000" />
     </task>
     <task id="LOCAL-00001" summary="Code Updated">
       <created>1581601997335</created>
@@ -143,7 +142,14 @@
       <option name="project" value="LOCAL" />
       <updated>1582037381111</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="Code Updated">
+      <created>1582038846005</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1582038846005</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">

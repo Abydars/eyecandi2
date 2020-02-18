@@ -5,14 +5,16 @@ import {Grid, List, ChevronDown} from 'react-feather';
 import banner from '../../../assets/images/ecommerce/banner.jpg';
 import errorImg from '../../../assets/images/search-not-found.png';
 import Modal from 'react-responsive-modal';
-import {getVisibleproducts} from '../../../services/index';
+import {getColors, getVisibleproducts} from '../../../services/index';
 import Carousal from '../../ecommerce-app/filters/carousal';
 import AllFilters from '../../ecommerce-app/filters/allfilters';
+import { filterBrand, filterColor, filterPrice } from '../../../actions/ecommerce.actions';
 
 
 const FramesGallery = (props) => {
 
     const data = useSelector(content => content.data.productItems);
+    const colors = getColors(data);
     const filters = useSelector(content => content.filters);
     const products = getVisibleproducts(data, filters);
     const symbol = useSelector(content => content.data.symbol);
@@ -129,6 +131,14 @@ const FramesGallery = (props) => {
         dispatch({type: 'SEARCH_BY', search: keyword})
     }
 
+    const colorHandle = (event, color) => {
+        var elems = document.querySelectorAll(".color-selector ul li");
+        [].forEach.call(elems, function (el) {
+            el.classList.remove("active");
+        });
+        event.target.classList.add('active');
+        filterColor(color);
+    }
 
     return (
         <Fragment>
@@ -341,6 +351,17 @@ const FramesGallery = (props) => {
                                                         {/*    <li className="bg-info"></li>*/}
                                                         {/*    <li className="bg-warning"></li>*/}
                                                         {/*</ul>*/}
+
+                                                        <div className="color-selector">
+                                                            <ul>
+                                                                {colors.map((color, i) => {
+                                                                    return (
+                                                                        <li className={color} key={i} title={color} onClick={(e) => colorHandle(e, color)}></li>
+                                                                    )
+                                                                })}
+
+                                                            </ul>
+                                                        </div>
 
 
                                                         {/*<div className="product-price">*/}
