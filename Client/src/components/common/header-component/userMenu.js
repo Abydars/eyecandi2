@@ -16,7 +16,8 @@ const UserMenu = () => {
                 </div>
                 <ul className="profile-dropdown onhover-show-div p-20 profile-dropdown-hover">
                     <li><a href="#javascript"><User />Edit Profile</a></li>
-                    <li><a href="#javascript"><Mail />Inbox</a></li>
+                    {/*<li><a href="#javascript"><Mail />Inbox</a></li>*/}
+                    <li></li>
                     <li><a href="#javascript"><Lock />Lock Screen</a></li>
                     <li><a href="#javascript"><Settings />Settings</a></li>
                     <li><a href="#javascript"><LogOut /> Log out</a></li>
