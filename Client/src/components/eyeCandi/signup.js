@@ -1,9 +1,10 @@
 import React, { useState , Fragment, Component} from 'react';
 import axios from 'axios';
 import useForm from 'react-hook-form'
-import Redirect from 'react-hook-form'
+// import Redirect from 'react-hook-form'
 
-import logo from '../../assets/images/endless-logo.png';
+import logo from '../../assets/images/eyeCandi/logo-ss.png';
+
 
 const Signup = (props) => {
 
@@ -183,8 +184,7 @@ const Signup = (props) => {
     const onSubmit = data => {
         if (data !== '') {
             console.log(data);
-            props.history.push('/');
-            // alert('You submitted the form and stuff!');
+            props.history.push('/Setup-Wizard');
         } else {
             errors.showMessages();
         }
@@ -205,7 +205,7 @@ const Signup = (props) => {
                                         <div className="authentication-box">
                                             <div className="text-center"><img src={logo} alt=""/></div>
                                             <div className="card mt-4 p-4">
-                                                <h4 className="text-center text-capitalize custom-heading-color">Register</h4>
+                                                <h4 className="text-center text-capitalize txt-danger f-w-700">Register</h4>
                                                 <form className="theme-form needs-validation" noValidate="" onSubmit={handleSubmit(onSubmit)}>
 
                                                     <div className="form-row">

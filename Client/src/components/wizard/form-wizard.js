@@ -67,8 +67,8 @@ class FormWizard extends Component {
                                 backButtonText="Back"
                                 // hocValidationAppliedTo={[0,1]}
                                 preventEnterSubmission={true}
-                                backButtonCls="ml-4 btn btn-prev btn-primary btn-lg pull-left"
-                                nextButtonCls="mr-4 btn btn-prev btn-primary btn-lg pull-right"
+                                backButtonCls="ml-4 btn btn-prev btn-secondary btn-lg pull-left"
+                                nextButtonCls="mr-4 btn btn-next btn-secondary btn-lg pull-right"
                                 startAtStep={window.sessionStorage.getItem('step') ? parseFloat(window.sessionStorage.getItem('step')) : 0}
                                 onStepChange={(step) => window.sessionStorage.setItem('step', step)}
                             />

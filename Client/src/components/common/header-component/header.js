@@ -100,12 +100,12 @@ const Header = () => {
                 <Notification />
               </li>
 
-              <li>
-                <a onClick={showRightSidebar}>
-                  <MessageCircle />
-                  <span className="dot"></span>
-                </a>
-              </li>
+              {/*<li>*/}
+              {/*  <a onClick={showRightSidebar}>*/}
+              {/*    <MessageCircle />*/}
+              {/*    <span className="dot"></span>*/}
+              {/*  </a>*/}
+              {/*</li>*/}
 
               <li>
                 <UserMenu />

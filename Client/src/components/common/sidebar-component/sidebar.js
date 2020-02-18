@@ -10,7 +10,7 @@ import { Link } from 'react-router-dom';
 import { translate } from 'react-switch-lang';
 
 
-function useWindowSize(wrapper) {
+function useWindowSize__(wrapper) {
     const [size, setSize] = useState([0, 0]);
 
     useLayoutEffect(() => {
@@ -25,17 +25,34 @@ function useWindowSize(wrapper) {
     if (wrapper === "horizontal_sidebar") {
         // console.log(wrapper);
         if (size[0] > 100 && size[0] < 991) {
+
+            //console.log("-mobile and tablet");
+
+            // var element1 = document.getElementById("page-wrapper");
+            // element1.classList.add("default");
+            //
+            // var element2 = document.getElementById("page-body-wrapper");
+            // element2.classList.add("default");
+
             document.querySelector(".page-wrapper").className = 'page-wrapper default';
             document.querySelector(".page-body-wrapper").className = 'page-body-wrapper default';
-        } else {
-              console.log(document.querySelector("page-wrapper")+"~@#");
-              console.log(document.getElementsByClassName("page-wrapper")+"---");
 
-            // document.querySelector(".page-wrapper").className = 'page-wrapper horizontal_sidebar';
-            // document.querySelector(".page-body-wrapper").className = 'page-body-wrapper horizontal_sidebar';
+        } else {
+
+           // console.log("-desktop");
+
+            // var element3 = document.getElementById("page-wrapper");
+            // element3.classList.add("horizontal_sidebar");
+            //
+            // var element4 = document.getElementById("page-body-wrapper");
+            // element4.classList.add("horizontal_sidebar");
+
+
+            document.querySelector(".page-wrapper").className = 'page-wrapper';
+            document.querySelector(".page-body-wrapper").className = 'page-body-wrapper';
         }
     }
-
+    console.log("Size-"+size);
     return size;
 }
 
@@ -54,9 +71,38 @@ const Sidebar = (props) => {
     const layout = useSelector(content => content.Customizer.customizer);
     console.log(configDB.settings.layout_type+"~~");
 
+    // const [width, height] = useWindowSize(configDB.settings.sidebar.wrapper);
     const [width, height] = useWindowSize(configDB.settings.sidebar.wrapper);
+
     let location = useLocation();
 
+
+
+    function useWindowSize(wrapper){
+        const [size, setSize] = useState([0, 0]);
+
+        useLayoutEffect(() => {
+            function updateSize() {
+                setSize([window.innerWidth, window.innerHeight]);
+            }
+            window.addEventListener('resize', updateSize);
+            updateSize();
+            return () => window.removeEventListener('resize', updateSize);
+        }, []);
+
+        if (wrapper === "horizontal_sidebar") {
+            // console.log(wrapper);
+            if (size[0] > 100 && size[0] < 991) {
+                document.querySelector(".page-wrapper").className = 'page-wrapper default';
+                document.querySelector(".page-body-wrapper").className = 'page-body-wrapper default';
+            } else {
+                document.querySelector(".page-wrapper").className = 'page-wrapper horizontal_sidebar';
+                document.querySelector(".page-body-wrapper").className = 'page-body-wrapper horizontal_sidebar';
+            }
+        }
+        console.log("Size-!"+size);
+        return size;
+    }
 
 
     useEffect(() => {
@@ -194,7 +240,8 @@ const Sidebar = (props) => {
                         style={configDB.settings.sidebar.wrapper === 'horizontal_sidebar' ? layout === 'rtl' ?
                             { 'marginRight': margin + 'px' } : { 'marginLeft': margin + 'px' } : { margin: '0px' }}
                     >
-                        <li className={`left-arrow ${layout == 'rtl' ? hideLeftArrowRTL ? 'd-none' : 'hideLeftArrowRTL' : hideLeftArrow ? 'd-none' : 'hideLeftArrow'}`}
+                        {/*--*/}
+                        <li className={`left-arrow ${layout === 'rtl' ? hideLeftArrowRTL ? 'd-none' : 'hideLeftArrowRTL' : hideLeftArrow ? 'd-none' : 'hideLeftArrow'}`}
                             onClick={(configDB.settings.sidebar.wrapper === 'horizontal_sidebar' && layout === 'rtl') ? scrollToLeftRTL : scrollToLeft}><i className="fa fa-angle-left"></i></li>
                         {
                             MENUITEMS.map((menuItem, i) =>
@@ -264,8 +311,8 @@ const Sidebar = (props) => {
                                 </li>
                             )
                         }
-                        <li className={`right-arrow ${ layout == 'rtl' ? hideRightArrowRTL ? 'd-none' : 'hideRightArrowRTL' : hideRightArrow ? 'd-none' : 'hideRightArrow'}`}
-                            onClick={(configDB.settings.sidebar.wrapper == 'horizontal_sidebar' && layout == 'rtl') ? scrollToRightRTL : scrollToRight}><i className="fa fa-angle-right"></i></li>
+                        <li className={`right-arrow ${ layout === 'rtl' ? hideRightArrowRTL ? 'd-none' : 'hideRightArrowRTL' : hideRightArrow ? 'd-none' : 'hideRightArrow'}`}
+                            onClick={(configDB.settings.sidebar.wrapper === 'horizontal_sidebar' && layout === 'rtl') ? scrollToRightRTL : scrollToRight}><i className="fa fa-angle-right"></i></li>
                     </ul>
                 </div>
             </div>

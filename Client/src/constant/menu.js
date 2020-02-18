@@ -15,7 +15,7 @@ export const MENUITEMS = [
         // ]
     },
     {
-        title: 'Frames', icon: Calendar, type: 'link', path: '/frames', active: false
+        title: 'Frames', icon: Calendar, type: 'link', path: '/FramesGallery', active: false
     },
     {
         title: 'Bookings', icon: Calendar, type: 'link', path: '/bookings', active: false

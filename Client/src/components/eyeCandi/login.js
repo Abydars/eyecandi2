@@ -1,5 +1,5 @@
 import React , {Component} from 'react';
-import logo from '../../assets/images/endless-logo.png'
+import logo from '../../assets/images/eyeCandi/logo-ss.png'
 
 
 export default class Login extends Component {
@@ -66,7 +66,7 @@ export default class Login extends Component {
                                             <div className="card mt-4">
                                                 <div className="card-body">
                                                     <div className="text-center">
-                                                        <h4 className="custom-heading-color text-capitalize">LOGIN</h4>
+                                                        <h4 className="text-capitalize txt-danger f-w-700">LOGIN</h4>
                                                     </div>
                                                     <form className="theme-form" onSubmit={this.onSubmit}>
                                                         <div className="form-group">

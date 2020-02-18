@@ -1,5 +1,5 @@
 import React, { Fragment } from 'react';
-import Breadcrumb from '../common/breadcrumb';
+import Breadcrumb from '../../common/breadcrumb';
 
 const Ecommerce = () => {
   return (

@@ -3,7 +3,7 @@ export class ConfigDB {
 		settings: {
 			layout_type: 'rtl',
 			sidebar: {
-				wrapper : 'horizontal_sidebar',
+				wrapper : '',
 				bodyWrapper: ''
 			},
 			sidebar_setting: 'default-sidebar',
@@ -11,10 +11,10 @@ export class ConfigDB {
 		},
 		color: {
 			layout_version: 'light',
-			theme_color: 'light-1',
-			primary_color: '#4466f2',
-			secondary_color: '#1ea6ec',
-			mix_layout: 'default'
+			color: 'color_4',
+			primary_color: "#7c4dff",
+			secondary_color: "#7b1fa2",
+			mix_layout:'default'
 		},
 		router_animation: 'fadeIn'
 	}

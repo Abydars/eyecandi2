@@ -2,8 +2,27 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d7e7150b-e772-4e0c-83a1-e427076dd2b6" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/Client/src/assets/images/eyeCandi/config-color-setting.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Client/src/assets/images/eyeCandi/logo-ss.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Client/src/components/dashboard/dashboard.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Client/src/components/eyeCandi/pages/frames.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Client/src/components/app.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/Client/src/components/app.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Client/src/components/common/breadcrumb.js" beforeDir="false" afterPath="$PROJECT_DIR$/Client/src/components/common/breadcrumb.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Client/src/components/common/header-component/header.js" beforeDir="false" afterPath="$PROJECT_DIR$/Client/src/components/common/header-component/header.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Client/src/components/common/sidebar-component/sidebar.js" beforeDir="false" afterPath="$PROJECT_DIR$/Client/src/components/common/sidebar-component/sidebar.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Client/src/components/dashboard/crypto/cryptoComponent.js" beforeDir="false" afterPath="$PROJECT_DIR$/Client/src/components/dashboard/Theme-Pages/crypto/cryptoComponent.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Client/src/components/dashboard/defaultCompo/default.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Client/src/components/dashboard/ecommerce.js" beforeDir="false" afterPath="$PROJECT_DIR$/Client/src/components/dashboard/Theme-Pages/ecommerce.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Client/src/components/dashboard/project/project.js" beforeDir="false" afterPath="$PROJECT_DIR$/Client/src/components/dashboard/Theme-Pages/project/project.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Client/src/components/dashboard/university.js" beforeDir="false" afterPath="$PROJECT_DIR$/Client/src/components/dashboard/Theme-Pages/university.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Client/src/components/eyeCandi/login.js" beforeDir="false" afterPath="$PROJECT_DIR$/Client/src/components/eyeCandi/login.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Client/src/components/eyeCandi/signup.js" beforeDir="false" afterPath="$PROJECT_DIR$/Client/src/components/eyeCandi/signup.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Client/src/components/wizard/form-wizard.js" beforeDir="false" afterPath="$PROJECT_DIR$/Client/src/components/wizard/form-wizard.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Client/src/components/wizard/publicGallery.js" beforeDir="false" afterPath="$PROJECT_DIR$/Client/src/components/wizard/publicGallery.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Client/src/constant/menu.js" beforeDir="false" afterPath="$PROJECT_DIR$/Client/src/constant/menu.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Client/src/data/customizer/config.js" beforeDir="false" afterPath="$PROJECT_DIR$/Client/src/data/customizer/config.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Client/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/Client/src/index.js" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -25,20 +44,23 @@
   <component name="PropertiesComponent">
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/Client/src/assets/images/eyeCandi" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="ts.external.directory.path" value="C:\Program Files\JetBrains\WebStorm 2019.2.2\plugins\JavaScriptLanguage\jsLanguageServicesImpl\external" />
   </component>
   <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\xampp\htdocs\projects\eyecandi2\Client\src\components\eyeCandi\pages" />
+      <recent name="C:\xampp\htdocs\projects\eyecandi2\Client\src\components\dashboard" />
+      <recent name="C:\xampp\htdocs\projects\eyecandi2\Client\src\components\dashboard\Theme-Pages" />
+      <recent name="C:\xampp\htdocs\projects\eyeCandi-project\Client\src\components\eyeCandi" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\xampp\htdocs\projects\eyecandi2\Client\src\assets\images\eyeCandi" />
       <recent name="C:\xampp\htdocs\projects\eyecandi\Client\src\components\advance" />
       <recent name="C:\xampp\htdocs\projects\eyecandi\Client\src\data" />
       <recent name="C:\xampp\htdocs\projects\eyecandi\Client\src\components\base" />
       <recent name="C:\xampp\htdocs\projects\eyecandi\Client\src\components" />
-      <recent name="C:\xampp\htdocs\projects\eyeCandi-project" />
-    </key>
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="C:\xampp\htdocs\projects\eyeCandi-project\Client\src\components\eyeCandi" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -67,7 +89,7 @@
       <workItem from="1581414703454" duration="10535000" />
       <workItem from="1581494187826" duration="24698000" />
       <workItem from="1581601242284" duration="56821000" />
-      <workItem from="1581950667362" duration="4496000" />
+      <workItem from="1581950667362" duration="23028000" />
     </task>
     <task id="LOCAL-00001" summary="Code Updated">
       <created>1581601997335</created>
@@ -118,7 +140,14 @@
       <option name="project" value="LOCAL" />
       <updated>1581954271054</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="Code Updated">
+      <created>1581955338827</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1581955338827</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">

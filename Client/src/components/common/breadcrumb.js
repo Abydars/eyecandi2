@@ -14,7 +14,7 @@ const Breadcrumb = props => {
                     <div className="row">
                         <div className="col">
                             <div className="page-header-left">
-                                <h3>{breadcrumb.title}</h3>
+                                <h3 className="txt-danger">{breadcrumb.title}</h3>
                                 <ol className="breadcrumb pull-right">
                                     <li className="breadcrumb-item">
                                         <Link to="/dashboard/default">

@@ -1,20 +1,23 @@
-import React, { Component, Fragment } from 'react';
+import React, {Component, Fragment} from 'react';
+import Reactd, {Redirect} from "react-router-dom";
 import ReactCrop from "react-image-crop";
 import "react-image-crop/dist/ReactCrop.css";
+
 // import useForm from "react-hook-form/dist/useForm";
 
-class PublicGallery extends Component{
+class PublicGallery extends Component {
 
     constructor(props) {
 
         super(props);
 
         this.state = {
+            ToFrameGallery: false,
             url: this.props.getStore().main_url,
             phone: this.props.getStore().main_contact_phone,
             email: this.props.getStore().main_contact_email,
-            brands:'qwerty,asdfg,zxcvb',
-            public_gallery_url:'',
+            brands: 'qwerty,asdfg,zxcvb',
+            public_gallery_url: '',
             src: null,
             crop: {
                 unit: "%",
@@ -29,7 +32,7 @@ class PublicGallery extends Component{
         if (e.target.files && e.target.files.length > 0) {
             const reader = new FileReader();
             reader.addEventListener("load", () =>
-                this.setState({ src: reader.result })
+                this.setState({src: reader.result})
             );
             reader.readAsDataURL(e.target.files[0]);
         }
@@ -50,7 +53,7 @@ class PublicGallery extends Component{
 
     onCropChange = (crop, percentCrop) => {
         // You could also use percentCrop:
-        this.setState({ crop });
+        this.setState({crop});
     };
 
     async makeClientCrop(crop) {
@@ -60,14 +63,14 @@ class PublicGallery extends Component{
                 crop,
                 "newFile.jpeg"
             );
-            this.setState({ croppedImageUrl });
+            this.setState({croppedImageUrl});
         } else if (this.videoRef && crop.width && crop.height) {
             const croppedVideoUrl = await this.getCroppedVid(
                 this.videoRef,
                 crop,
                 "mp4"
             );
-            this.setState({ croppedVideoUrl });
+            this.setState({croppedVideoUrl});
         }
     }
 
@@ -151,7 +154,7 @@ class PublicGallery extends Component{
     };
 
 
-    onSubmit = e =>{
+    onSubmit = e => {
         e.preventDefault();
         const data = {
             url: this.state.url,
@@ -162,21 +165,23 @@ class PublicGallery extends Component{
             profile_pic: this.state.profile_pic,
             src: this.state.src
         }
-        console.log(data);
-        this.props.history.push('/Setup-Wizard/');
-        // this.props.history.push('/Setup-Wizard');
-        // this.history('Setup-Wizard');
+        console.log(data)
+
+        this.setState(()=>({
+            ToFrameGallery: true
+        }))
+        //this.state.redirect.history.push('/FramesGallery');
 
     };
 
     render() {
 
-        const submitFun = () => {
-            alert("successfully updated")
+        if(this.state.ToFrameGallery === true){
+            return  <Redirect to="/FramesGallery" />
         }
 
-        const { crop, croppedImageUrl, croppedVideoUrl, src } = this.state;
 
+        const {crop, croppedImageUrl, croppedVideoUrl, src} = this.state;
 
         return (
 
@@ -184,7 +189,7 @@ class PublicGallery extends Component{
                 <div className="row">
                     <div className="col-sm-12">
 
-                        <div className="ml-auto mr-auto" style={{width:'90%'}}>
+                        <div className="ml-auto mr-auto" style={{width: '90%'}}>
 
                             <p className="h4 txt-info mt-5 mb-5">
                                 This is your chance to create a custom URL for your
@@ -192,7 +197,7 @@ class PublicGallery extends Component{
                                 make it easy to remember and recall.
                             </p>
 
-                            <form className="needs-validation"  onSubmit={this.onSubmit}>
+                            <form className="needs-validation" onSubmit={this.onSubmit}>
                                 <div className="form-row">
 
                                     <div className="col-md-12 mb-3">
@@ -211,7 +216,7 @@ class PublicGallery extends Component{
 
                                     <div className="col-md-12 mb-3">
                                         <label>Profile Logo</label>
-                                        <div className="input-cropper" style={{padding:'5px' , width:'100%'}}>
+                                        <div className="input-cropper" style={{padding: '5px', width: '100%'}}>
                                             <input type="file" name="profile_pic"
                                                    onChange={this.onSelectFile}
                                                    className="custom-file-width"
@@ -228,18 +233,19 @@ class PublicGallery extends Component{
                                             />
                                         )}
                                         {croppedImageUrl && (
-                                            <img alt="Crop" style={{ maxWidth: "100%" }} src={croppedImageUrl} className="crop-portion" />
+                                            <img alt="Crop" style={{maxWidth: "100%"}} src={croppedImageUrl}
+                                                 className="crop-portion"/>
                                         )}
 
                                         {croppedVideoUrl && (
                                             <video controls width="250">
-                                                <source src={croppedVideoUrl} type="video/mp4" />
+                                                <source src={croppedVideoUrl} type="video/mp4"/>
                                             </video>
                                         )}
 
                                     </div>
                                     {/*onClick={submitFun}*/}
-                                    <button className="btn btn-primary r-7 btnsubmit" >Finish Setup</button>
+                                    <button className="btn btn-primary r-7 btnsubmit">Finish Setup</button>
                                 </div>
                             </form>
 

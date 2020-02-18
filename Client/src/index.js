@@ -13,11 +13,12 @@ import App from "./components/app";
 
 
 // Import custom Components 
-import Dashboard from './components/dashboard/defaultCompo/default';
-
+import Dashboard from './components/dashboard/dashboard';
 import Login from './components/eyeCandi/login';
 import SignUp from './components/eyeCandi/signup';
 import FormWizard from './components/wizard/form-wizard';
+import FramesGallery from './components/eyeCandi/pages/frames';
+
 
 
 // sample page
@@ -46,6 +47,12 @@ function Root() {
                                 <App>
                                     {/* dashboard menu */}
                                     <Route exact path={`${process.env.PUBLIC_URL}/`} component={Dashboard} />
+
+                                    {/* Frames Gallery Page */}
+                                    <Route exact path={`${process.env.PUBLIC_URL}/FramesGallery`} component={FramesGallery} />
+
+
+
                                 </App>
                             </Fragment>
                         </Switch>
