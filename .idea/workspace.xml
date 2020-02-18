@@ -2,88 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d7e7150b-e772-4e0c-83a1-e427076dd2b6" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Client/src/actions/chat.action.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Client/src/actions/ecommerce.actions.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Client/src/actions/email.action.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Client/src/assets/images/ecommerce/01 - Copy.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Client/src/assets/images/ecommerce/01.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Client/src/assets/images/ecommerce/02.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Client/src/assets/images/ecommerce/03.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Client/src/assets/images/ecommerce/04.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Client/src/assets/images/ecommerce/05.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Client/src/assets/images/ecommerce/06.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Client/src/assets/images/ecommerce/07.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Client/src/assets/images/ecommerce/08.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Client/src/assets/images/ecommerce/09.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Client/src/assets/images/ecommerce/10.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Client/src/assets/images/ecommerce/11.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Client/src/assets/images/ecommerce/12.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Client/src/assets/images/ecommerce/banner.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Client/src/assets/images/ecommerce/card.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Client/src/assets/images/ecommerce/mastercard.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Client/src/assets/images/ecommerce/paypal.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Client/src/assets/images/ecommerce/product-table-1.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Client/src/assets/images/ecommerce/product-table-2.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Client/src/assets/images/ecommerce/product-table-3.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Client/src/assets/images/ecommerce/product-table-4.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Client/src/assets/images/ecommerce/product-table-5.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Client/src/assets/images/ecommerce/product-table-6.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Client/src/assets/images/ecommerce/visa.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Client/src/assets/images/eyeCandi/g-1.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Client/src/assets/images/eyeCandi/g-2.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Client/src/assets/images/eyeCandi/g-3.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Client/src/assets/images/eyeCandi/g-4.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Client/src/assets/images/search-not-found.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Client/src/components/ecommerce-app/add-to-cart.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Client/src/components/ecommerce-app/checkout.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Client/src/components/ecommerce-app/filters/allfilters.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Client/src/components/ecommerce-app/filters/carousal.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Client/src/components/ecommerce-app/history.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Client/src/components/ecommerce-app/invoice.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Client/src/components/ecommerce-app/payment.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Client/src/components/ecommerce-app/product-detail/product-detail.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Client/src/components/ecommerce-app/product-detail/tabset.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Client/src/components/ecommerce-app/product-list.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Client/src/components/ecommerce-app/product.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Client/src/components/ecommerce-app/wishlist.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Client/src/data/actions/chat.action.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Client/src/data/actions/ecommerce.actions.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Client/src/data/actions/email.action.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Client/src/data/base.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Client/src/data/chat/chat.chats.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Client/src/data/chat/chatMember.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Client/src/data/dummyTableData.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Client/src/data/ecommerce/product-list.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Client/src/data/email.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Client/src/data/gallery/imageData.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Client/src/data/gallery/imageDec.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Client/src/data/icons/featherData.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Client/src/data/icons/flagIconData.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Client/src/data/icons/fontawsomeData.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Client/src/data/icons/icoData.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Client/src/data/icons/themifyData.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Client/src/data/job/jobDB.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Client/src/data/knowledgebase/knowledgebaseDB.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Client/src/data/learning/learningDB.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Client/src/data/products.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Client/src/data/server-table.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Client/src/data/supportTicket/support-ticket.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Client/src/data/todos.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Client/src/data/typeaheadData.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Client/src/reducers/chat.reducer.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Client/src/reducers/ecommerce.reducer.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Client/src/reducers/email.reducer.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Client/src/reducers/filters.reducer.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Client/src/reducers/todos.reducer.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Client/src/reducers/wishlist.reducer.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Client/src/services/contact.service.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Client/src/services/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Client/src/services/todo-firebase.service.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Client/src/components/common/header-component/userMenu.js" beforeDir="false" afterPath="$PROJECT_DIR$/Client/src/components/common/header-component/userMenu.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Client/src/components/common/breadcrumb.js" beforeDir="false" afterPath="$PROJECT_DIR$/Client/src/components/common/breadcrumb.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Client/src/components/eyeCandi/pages/frames.js" beforeDir="false" afterPath="$PROJECT_DIR$/Client/src/components/eyeCandi/pages/frames.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Client/src/constant/actionTypes.js" beforeDir="false" afterPath="$PROJECT_DIR$/Client/src/constant/actionTypes.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Client/src/reducers/index.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/Client/src/reducers/index.jsx" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -150,7 +71,7 @@
       <workItem from="1581414703454" duration="10535000" />
       <workItem from="1581494187826" duration="24698000" />
       <workItem from="1581601242284" duration="56821000" />
-      <workItem from="1581950667362" duration="30859000" />
+      <workItem from="1581950667362" duration="32365000" />
     </task>
     <task id="LOCAL-00001" summary="Code Updated">
       <created>1581601997335</created>
@@ -215,7 +136,14 @@
       <option name="project" value="LOCAL" />
       <updated>1582029315632</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="Code Updated">
+      <created>1582037381111</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1582037381111</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">

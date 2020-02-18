@@ -5,8 +5,8 @@ import Bookmark from './bookmark';
 
 
 const Breadcrumb = props => {
-    const [breadcrumb, setBreadcrumb] = useState(props);
-    
+   const [breadcrumb, setBreadcrumb] = useState(props);
+
     return (
         <Fragment>
             <div className="container-fluid">
@@ -26,6 +26,20 @@ const Breadcrumb = props => {
                                 </ol>
                             </div>
                         </div>
+
+                        {
+                            props.title === "Frames" ?
+
+                                <div className="col text-right">
+                                    <a href="#_" className="btn btn-outline-info mr-3">Setting</a>
+                                    <a href="#_" className="btn btn-secondary">My Public Gallery</a>
+                                </div>
+
+                                : null
+                        }
+
+
+
                         {/* <!-- Bookmark Start--> */}
                        {/*<Bookmark />*/}
                         {/* <!-- Bookmark Ends--> */}

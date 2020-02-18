@@ -200,6 +200,8 @@ const FramesGallery = (props) => {
                             </div>
 
                         </div>
+
+
                         <div className="row">
                              <div className="col-sm-3">
                                 <div className={`product-sidebar ${filterSidebar ? '' : 'open'}`}>
@@ -330,6 +332,16 @@ const FramesGallery = (props) => {
                                                             </a></h6>
 
                                                         <p>CK4599</p>
+
+                                                        {/*{item.colors}*/}
+                                                        {/*<ul className="product-color m-t-15">*/}
+                                                        {/*    <li className="bg-primary"></li>*/}
+                                                        {/*    <li className="bg-secondary"></li>*/}
+                                                        {/*    <li className="bg-success"></li>*/}
+                                                        {/*    <li className="bg-info"></li>*/}
+                                                        {/*    <li className="bg-warning"></li>*/}
+                                                        {/*</ul>*/}
+
 
                                                         {/*<div className="product-price">*/}
                                                         {/*    <del>*/}
